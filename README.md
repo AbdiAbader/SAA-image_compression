@@ -7,11 +7,11 @@
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Introduction
 
 ``` This project implements an image compression algorithm using Python and Flask.```
+
 
 ### Features
 
