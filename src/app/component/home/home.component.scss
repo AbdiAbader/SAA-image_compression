@@ -1,0 +1,156 @@
+.wrapper {
+
+    background-color: #F4F3F2;
+    height: 1000px;
+    width: 100%;
+  
+    display: flex;
+    
+    
+  }
+.circle-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 210px;
+    margin-left: 260px;
+    overflow: hidden; 
+
+    animation: slide 20s linear infinite;
+  
+  }
+  
+  .circle-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/img1.jpg');
+    animation: background-image 35s ease-in-out infinite;
+   
+ 
+
+    background-size: cover;
+  }
+  @keyframes background-image {
+    0% {
+      background-image: url('/assets/img1.jpg');
+      
+    }
+    15% {
+      background-image: url('/assets/img2.jpg');
+     
+    }
+    25% {
+        background-image: url('/assets/img3.jpg');
+    }
+    35% {
+        background-image: url('/assets/img4.jpg');
+    }
+    45% {
+        background-image: url('/assets/img7.jpg');
+    }
+    55% {
+        background-image: url('/assets/img6.jpg');
+    }
+    65% {
+        background-image: url('/assets/img11.jpg');
+    }
+    75% {
+        background-image: url('/assets/img8.jpg');
+    }
+    85% {
+        background-image: url('/assets/img9.jpg');
+    }
+    100% {
+        background-image: url('/assets/img10.jpg');
+    }
+    
+  
+  }
+
+.text {
+    width: 300px;
+    height: 300px;
+    margin-top: 250px;
+    margin-left: 20px;
+    
+}
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-weight: lighter;
+}
+.buttons {
+  
+    display: flex;
+    width: 500px;
+   
+}
+.big-circle-button1 {
+    margin-right: 20px;
+    margin-top: 125px;
+    border-style: groove;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #E09F0F; /* This is the button background color */
+    color: #000000; /* This is the text color */
+            font-size: 20px;/* This is the font size of the text */
+    text-align: center; /* This centers the text */
+    
+    border-color: #000000;
+    border-width: 1px;
+   
+    
+  }
+    .big-circle-button1:hover {
+        background-color:white; /* This is the button background color */
+        color: #000000;
+    }
+
+    .big-circle-button2 {
+        margin-right: 20px;
+        margin-top: 125px;
+   
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #B7B91A; /* This is the button background color */
+        color: #000000; /* This is the text color */
+        font-size: 20px; /* This is the font size of the text */
+        text-align: center; /* This centers the text */
+        border-style: dotted;
+        border-color: #000000;
+        border-width: 1px;
+       
+        
+      }
+        .big-circle-button2:hover {
+            background-color:white; /* This is the button background color */
+           
+        }
+        .big-circle-button3 {
+            margin-top: 125px;
+           
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #1CBDC9; /* This is the button background color */
+            color: #000000; /* This is the text color */
+            font-size: 20px; /* This is the font size of the text */
+            text-align: center; /* This centers the text */
+            border-style: dotted;
+            border-color: #000000;
+            border-width: 1px;
+           
+            
+          }
+            .big-circle-button3:hover {
+                background-color:white; /* This is the button background color */
+       
+                
+            }
+        
