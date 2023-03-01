@@ -1,0 +1,35 @@
+
+<div class="upload">
+
+  <div class="cont">
+  
+    <div class="container">
+        <h1> Upload Your Images
+            <small>with preview</small>
+            
+        </h1>
+        <div class="avatar-upload">
+            <form>
+            <div class="avatar-edit">
+                <input type='file' name="imageFile" id="imageUpload" accept=".png, .jpg, .jpeg" (change)="onFileSelected($event)"/>
+         
+                <label for="imageUpload"></label>
+            </div>
+            
+            <div class="avatar-preview">
+                
+                <div id="imagePreview" style="background-image: url(/assets/img1.jpg);">
+                    
+                </div>
+                <button type="submit" class="btn btn-outline-success" (click)="compress()">Compress</button>
+            </div>
+        </form>
+         
+        </div>
+        
+    </div>
+
+  </div>
+    
+      
+</div>
